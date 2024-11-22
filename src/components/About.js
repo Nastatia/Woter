@@ -8,14 +8,14 @@ const About = () => {
             <div className="bg-gradient-to-b from-black to-[#3E6A7E]  ">
                 <Navbar/>
           </div>
-            <div className="flex flex-col md:flex-row space-y-4 md:space-x-4 h-auto lg:px-40 md:px-10 sm:px-6 px-6 lg:py-20 md:py-10 sm:py-6 py-6 ">
+            <div className="flex flex-col md:flex-row space-y-4 md:space-x-4 h-auto lg:px-40 md:px-10 sm:px-6 px-6 py-20 sm:py-40 ">
                 <div className=' flex-1 bg-inherit flex items-center justify-center'> 
                     <img src='Assets/woter_and_cup.png' alt='Product' className='w-full '/>
                 </div>
                 <div className='flex-1  bg-inherit flex  text-justify items-center justify-center text-[#3E6A7E]'>
                     <div className='flex flex-col font-poppins gap-4 '>
                         <div className='pb-4  text-2xl md:text-3xl lg:text-4xl text-left font-extrabold leading-tight'>
-                           <h1>WOTER TABLE WATER</h1> 
+                         <h1>WOTER TABLE WATER</h1> 
                            <hr className='w-[15%] border-t-4  border-[#3E6A7E] mt-2'/>
                        </div>
                         <p>

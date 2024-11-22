@@ -1,5 +1,7 @@
-import { FaFacebook, FaInstagram, FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 
 const Footer = () => {
     return ( 
@@ -8,7 +10,7 @@ const Footer = () => {
                 <div className='flex-1'>
                   <h4 className='font-playfair text-[#97D1E3]  font-extrabold text-left text-sm md:text-md lg:text-lg pb-2'>Connect with us</h4>
                  <div className="flex  space-x-4 mt-8">
-                          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className=" text-[#97D1E3]  text-2xl  hover:text-blue-800">
+                          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className=" text-[#97D1E3]  text-2xl  hover:text-blue-500">
                              <FaFacebook />
                            </a>
                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className=" text-[#97D1E3] text-2xl  hover:text-pink-700">
@@ -17,8 +19,8 @@ const Footer = () => {
                           <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer" className=" text-[#97D1E3] text-2xl  hover:text-green-700">
                              <FaWhatsapp />
                            </a>
-                           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className=" text-[#97D1E3] text-2xl  hover:text-blue-600">
-                             <FaTwitter />
+                           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className=" text-[#97D1E3] text-2xl  hover:text-black">
+                             <FontAwesomeIcon icon={faXTwitter}  />
                           </a>
                  </div>
                 </div>
